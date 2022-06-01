@@ -125,7 +125,7 @@ window.onload = function() {
     }
 
     //Load image
-    img.src = "/Images/ship_v3.png";
+    img.src = "/Images/ship.png";
     context.drawImage(img, x, y, 80, 80);
 
     b -= (speed_b * timepassed);
